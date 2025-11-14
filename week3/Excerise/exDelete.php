@@ -1,5 +1,5 @@
 <?php
-include "connection.php";
+include "exConnection.php";
 
 $id = $_GET["id"];
 mysqli_query($link, "DELETE FROM laptops WHERE id=$id");
@@ -10,5 +10,5 @@ exit;
 ?>
 
 <script type="text/javascript">
-    window.location = "index.php";
+    window.location = "exIndex.php";
 </script>

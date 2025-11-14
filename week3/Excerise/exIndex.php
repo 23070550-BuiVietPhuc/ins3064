@@ -1,5 +1,5 @@
 <?php
-include "connection.php";
+include "exConnection.php";
 ?>
 
 <html lang="en">
@@ -80,8 +80,8 @@ include "connection.php";
                 echo "<td>".$row["storage"]."</td>";
                 echo "<td>".$row["price"]."</td>";
                 echo "<td>".$row["stock"]."</td>";
-                echo "<td><a href='edit.php?id=".$row["id"]."'><button type='button' class='btn btn-success'>Edit</button></a></td>";
-                echo "<td><a href='delete.php?id=".$row["id"]."'><button type='button' class='btn btn-danger'>Delete</button></a></td>";
+                echo "<td><a href='exEdit.php?id=".$row["id"]."'><button type='button' class='btn btn-success'>Edit</button></a></td>";
+                echo "<td><a href='exDelete.php?id=".$row["id"]."'><button type='button' class='btn btn-danger'>Delete</button></a></td>";
                 echo "</tr>";
             }
         }

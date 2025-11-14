@@ -1,5 +1,5 @@
 <?php
-include "connection.php";
+include "exConnection.php";
 $id = $_GET["id"];
 
 $brand = "";
@@ -84,7 +84,7 @@ if (isset($_POST["update"])) {
 
     ?>
     <script type="text/javascript">
-        window.location = "index.php";
+        window.location = "exIndex.php";
     </script>
     <?php
 }

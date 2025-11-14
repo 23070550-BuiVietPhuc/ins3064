@@ -1,0 +1,119 @@
+        .profile-header {
+      background-color: #d9d9d9;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .avatar {
+      width: 130px;
+      height: 130px;
+      background-color: red;
+      border-radius: 50%;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .username {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: 600;
+      color: white;
+    }
+
+    .header-right {
+      display: flex;    
+      gap: 15px;
+    }
+
+    .btn {
+      padding: 8px 20px;
+      border: none;
+      border-radius: 15px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .btn-login {
+      background-color: #6c757d;
+      color: white;
+    }
+
+    .btn-register {
+      background-color: #ff914d;
+      color: white;
+      border: 2px solid white;
+    }
+
+    .btn-login:hover {
+      background-color: #5a6268;
+    }
+
+    .btn-register:hover {
+      background-color: #ff7b2a;
+    }
+
+    /* Recipe grid */
+    .container {
+      width: 90%;
+      margin: 40px auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+      gap: 40px;
+      justify-items: center;
+    }
+
+    .recipe-card {
+      display: flex;
+      background-color: #ff914d;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+      max-width: 500px;
+    }
+
+    .recipe-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .recipe-img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .recipe-info {
+      padding: 15px;
+      color: #fff;
+      text-align: left;
+    }
+
+    .recipe-info h3 {
+      font-size: 17px;
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+
+    .recipe-info p {
+      font-size: 14px;
+      line-height: 1.4em;
+    }
+
+    .recipe-info small {
+      display: block;
+      margin-top: 8px;
+      font-style: italic;
+      font-size: 13px;
+      opacity: 0.9;
+    }
